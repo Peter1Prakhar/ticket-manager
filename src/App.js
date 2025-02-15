@@ -4,7 +4,6 @@ import Signup from "./auth/Signup";
 import Dashboard from "./pages/Dashboard";
 import CustomerPage from "./pages/CustomerPage";
 import AgentDashboard from "./pages/AgentDashboard";
-
 function App() {
   const uid = localStorage.getItem("user");
   return (
